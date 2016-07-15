@@ -14,11 +14,11 @@ Helper for [Crunchyroll](http://www.crunchyroll.com/). It allows the download/st
 - $ cd crunchyroll-helper
 - $ stack setup
 - $ stack build
-- $ stack exec crunchyroll-helper-exe <username> <password> <url> <episode> <download>
+- $ stack exec crunchyroll-helper-exe username password url episode download
 
 ### Examples
-Start downloading Berserk episode 1 and onward
+#####Start downloading Berserk episode 1 and onward
 $ stack exec crunchyroll-helper-exe teste 123 http://www.crunchyroll.com/berserk 1 True
 
-Start streaming Berserk episode 1 and onward to your default midia player
+#####Start streaming Berserk episode 1 and onward to your default midia player
 $ stack exec crunchyroll-helper-exe teste 123 http://www.crunchyroll.com/berserk 1 False
